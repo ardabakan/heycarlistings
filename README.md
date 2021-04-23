@@ -42,9 +42,11 @@ automatically run during installation commands
 - Searching for listings among the csv file contents and finding them successfully
 - Adding new listings via REST endpoint and having a 200 response from server
 - Searching for listings that we recently saved via JSON and finding them successfully
-
+- Add a new CSV from same dealer, change some prices inside it, and add a new 6th listing
+- Check that the new listing has also been added and the updated Audi's price has really changed
 
 ###### Ideas you would like to implement if you had time -explain how you would implement them
+
 - Focus on CSV validation ( check file type, check column count etc)
 - Implement authentication & authorization, fetch DealerId from Spring Boot user
 - Unify the make/models and keep a global map which matches makes/models from every dealer
