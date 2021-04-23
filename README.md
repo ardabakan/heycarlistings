@@ -7,7 +7,7 @@ This is a challenge implementation for Heycar's backend challenge
 Visit http://localhost:8080/swagger-ui.html/ for API details
 and to try the endpoints out by sample data
 
-# Building and Running
+# Building
 ### With Maven
 
 Use the mvnw included in the root folder or your local mvn tool  [mvn](https://maven.apache.org/) to clean and install the application.
