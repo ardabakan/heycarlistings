@@ -28,6 +28,11 @@ $ mvn clean install
 ```bash
 $ ./mvnw spring-boot:run
 ```
+or
+
+```bash
+$ mvn spring-boot:run
+```
 ### With Docker
 
 ```bash
