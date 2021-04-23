@@ -28,3 +28,38 @@ $ docker run -p8080:8080 heycarlistings:latest
 ## Tests
 Tests related to the listings microservice will be 
 automatically run during installation commands
+
+####Comments
+
+######Problems you discovered
+
+- The neeed to unify listings from CSV and JSON (for instance HP and KW conversions)
+- The need to apply JPA ExampleMatcher for searches
+
+######Executed tests and results
+
+- Uploading a csv file and having a 200 response from server
+- Searching for listings among the csv file contents and finding them successfully
+- Adding new listings via REST endpoint and having a 200 response from server
+- Searching for listings that we recently saved via JSON and finding them successfully
+
+
+######Ideas you would like to implement if you had time -explain how you would implement them
+- Focus on CSV validation ( check file type, check column count etc)
+- Implement authentication & authorization, fetch DealerId from Spring Boot user
+- Unify the make/models and keep a global map which matches makes/models from every dealer
+  (so that we do not have ambiguities like
+  VW -> from dealer1 and
+  VolksWagen -> from dealer2 )
+- Also keep another db for the real colour codes, power options (HP/KW) so that wrong info from dealers just be overwritten
+  by our system (for instance if a Mercedes B200 listing is sent with 20 HP, that's obviously wrong and thus needs correction
+  from our side)
+
+######Decisions you had to take and why
+
+- Use H2 db for sake of ease and less configuration
+- Use of Swagger for API demonstration
+
+######Tested architectures and reasons why you chose them instead of other options
+- Decided to use -> Spring Boot microservices, in memory db H2 and JPA layer for data manipulation & persistence
+- Because -> state of the art tools for microservices development
