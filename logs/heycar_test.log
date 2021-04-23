@@ -474,3 +474,1263 @@
 2021-04-23 16:52:51,549 DEBUG org.hibernate.type.spi.TypeConfiguration$Scope [SpringContextShutdownHook] Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@429525f9] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@3c108c05]
 2021-04-23 16:52:51,559 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
 2021-04-23 16:52:51,615 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2021-04-23 22:09:32,732 INFO car.hey.listings.ListingsApplicationTests [main] Starting ListingsApplicationTests using Java 16.0.1 on DESKTOP-2QT2LCO with PID 2492 (started by ardab in C:\Users\ardab\Downloads\listings)
+2021-04-23 22:09:32,743 INFO car.hey.listings.ListingsApplicationTests [main] No active profile set, falling back to default profiles: default
+2021-04-23 22:09:38,249 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-04-23 22:09:38,251 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-23 22:09:38,564 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-04-23 22:09:39,214 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-04-23 22:09:39,703 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-04-23 22:09:40,338 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-23 22:09:40,521 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-04-23 22:09:40,949 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-23 22:09:41,034 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration boolean -> org.hibernate.type.BooleanType@77d959f1
+2021-04-23 22:09:41,035 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration boolean -> org.hibernate.type.BooleanType@77d959f1
+2021-04-23 22:09:41,048 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@77d959f1
+2021-04-23 22:09:41,051 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@7793b55d
+2021-04-23 22:09:41,054 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration true_false -> org.hibernate.type.TrueFalseType@297c3a43
+2021-04-23 22:09:41,055 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration yes_no -> org.hibernate.type.YesNoType@4b22214d
+2021-04-23 22:09:41,061 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration byte -> org.hibernate.type.ByteType@57515944
+2021-04-23 22:09:41,063 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration byte -> org.hibernate.type.ByteType@57515944
+2021-04-23 22:09:41,064 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@57515944
+2021-04-23 22:09:41,071 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration character -> org.hibernate.type.CharacterType@537451d5
+2021-04-23 22:09:41,073 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration char -> org.hibernate.type.CharacterType@537451d5
+2021-04-23 22:09:41,078 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@537451d5
+2021-04-23 22:09:41,081 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration short -> org.hibernate.type.ShortType@5d7ff311
+2021-04-23 22:09:41,085 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration short -> org.hibernate.type.ShortType@5d7ff311
+2021-04-23 22:09:41,087 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.lang.Short -> org.hibernate.type.ShortType@5d7ff311
+2021-04-23 22:09:41,090 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration integer -> org.hibernate.type.IntegerType@19e2db7c
+2021-04-23 22:09:41,091 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration int -> org.hibernate.type.IntegerType@19e2db7c
+2021-04-23 22:09:41,092 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@19e2db7c
+2021-04-23 22:09:41,095 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration long -> org.hibernate.type.LongType@27dc81be
+2021-04-23 22:09:41,096 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration long -> org.hibernate.type.LongType@27dc81be
+2021-04-23 22:09:41,097 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.lang.Long -> org.hibernate.type.LongType@27dc81be
+2021-04-23 22:09:41,100 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration float -> org.hibernate.type.FloatType@6f428e6e
+2021-04-23 22:09:41,101 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration float -> org.hibernate.type.FloatType@6f428e6e
+2021-04-23 22:09:41,102 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.lang.Float -> org.hibernate.type.FloatType@6f428e6e
+2021-04-23 22:09:41,104 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration double -> org.hibernate.type.DoubleType@196d684b
+2021-04-23 22:09:41,105 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration double -> org.hibernate.type.DoubleType@196d684b
+2021-04-23 22:09:41,106 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@196d684b
+2021-04-23 22:09:41,109 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@3c3cd7a5
+2021-04-23 22:09:41,110 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@3c3cd7a5
+2021-04-23 22:09:41,114 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration big_integer -> org.hibernate.type.BigIntegerType@7619fbe7
+2021-04-23 22:09:41,115 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@7619fbe7
+2021-04-23 22:09:41,117 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration string -> org.hibernate.type.StringType@6a0e97fc
+2021-04-23 22:09:41,118 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.lang.String -> org.hibernate.type.StringType@6a0e97fc
+2021-04-23 22:09:41,120 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration nstring -> org.hibernate.type.StringNVarcharType@55e5415d
+2021-04-23 22:09:41,122 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@3265995e
+2021-04-23 22:09:41,126 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration url -> org.hibernate.type.UrlType@424a152f
+2021-04-23 22:09:41,126 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.net.URL -> org.hibernate.type.UrlType@424a152f
+2021-04-23 22:09:41,129 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration Duration -> org.hibernate.type.DurationType@2792c28
+2021-04-23 22:09:41,130 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.time.Duration -> org.hibernate.type.DurationType@2792c28
+2021-04-23 22:09:41,134 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration Instant -> org.hibernate.type.InstantType@5649f55
+2021-04-23 22:09:41,134 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.time.Instant -> org.hibernate.type.InstantType@5649f55
+2021-04-23 22:09:41,137 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@401b67a9
+2021-04-23 22:09:41,138 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@401b67a9
+2021-04-23 22:09:41,141 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration LocalDate -> org.hibernate.type.LocalDateType@6b64bf61
+2021-04-23 22:09:41,141 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@6b64bf61
+2021-04-23 22:09:41,145 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@7d4da729
+2021-04-23 22:09:41,146 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@7d4da729
+2021-04-23 22:09:41,149 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@5d93ff21
+2021-04-23 22:09:41,149 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@5d93ff21
+2021-04-23 22:09:41,152 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@3cb49121
+2021-04-23 22:09:41,153 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@3cb49121
+2021-04-23 22:09:41,156 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@cfb94fd
+2021-04-23 22:09:41,158 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@cfb94fd
+2021-04-23 22:09:41,162 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration date -> org.hibernate.type.DateType@79777da7
+2021-04-23 22:09:41,166 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.sql.Date -> org.hibernate.type.DateType@79777da7
+2021-04-23 22:09:41,169 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration time -> org.hibernate.type.TimeType@50e1f3fc
+2021-04-23 22:09:41,170 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.sql.Time -> org.hibernate.type.TimeType@50e1f3fc
+2021-04-23 22:09:41,174 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration timestamp -> org.hibernate.type.TimestampType@35d4035f
+2021-04-23 22:09:41,176 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@35d4035f
+2021-04-23 22:09:41,177 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.util.Date -> org.hibernate.type.TimestampType@35d4035f
+2021-04-23 22:09:41,180 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@33fec21
+2021-04-23 22:09:41,183 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration calendar -> org.hibernate.type.CalendarType@24435620
+2021-04-23 22:09:41,184 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@24435620
+2021-04-23 22:09:41,185 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@24435620
+2021-04-23 22:09:41,188 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@4feec184
+2021-04-23 22:09:41,191 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@166ddfb7
+2021-04-23 22:09:41,195 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration locale -> org.hibernate.type.LocaleType@51468039
+2021-04-23 22:09:41,196 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@51468039
+2021-04-23 22:09:41,199 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration currency -> org.hibernate.type.CurrencyType@59b3f754
+2021-04-23 22:09:41,200 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@59b3f754
+2021-04-23 22:09:41,203 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration timezone -> org.hibernate.type.TimeZoneType@23d978b
+2021-04-23 22:09:41,204 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@23d978b
+2021-04-23 22:09:41,208 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration class -> org.hibernate.type.ClassType@4b511e61
+2021-04-23 22:09:41,208 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.lang.Class -> org.hibernate.type.ClassType@4b511e61
+2021-04-23 22:09:41,212 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@3063be68
+2021-04-23 22:09:41,213 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@3063be68
+2021-04-23 22:09:41,214 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@215a0264
+2021-04-23 22:09:41,218 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration binary -> org.hibernate.type.BinaryType@b81938d
+2021-04-23 22:09:41,223 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration byte[] -> org.hibernate.type.BinaryType@b81938d
+2021-04-23 22:09:41,223 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration [B -> org.hibernate.type.BinaryType@b81938d
+2021-04-23 22:09:41,226 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@bea5941
+2021-04-23 22:09:41,226 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@bea5941
+2021-04-23 22:09:41,227 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@bea5941
+2021-04-23 22:09:41,230 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration row_version -> org.hibernate.type.RowVersionType@4ac0ed65
+2021-04-23 22:09:41,231 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration image -> org.hibernate.type.ImageType@73aae7a
+2021-04-23 22:09:41,238 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration characters -> org.hibernate.type.CharArrayType@1f85904a
+2021-04-23 22:09:41,239 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration char[] -> org.hibernate.type.CharArrayType@1f85904a
+2021-04-23 22:09:41,239 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration [C -> org.hibernate.type.CharArrayType@1f85904a
+2021-04-23 22:09:41,241 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@1c8e2850
+2021-04-23 22:09:41,242 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@1c8e2850
+2021-04-23 22:09:41,242 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@1c8e2850
+2021-04-23 22:09:41,244 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration text -> org.hibernate.type.TextType@399c408c
+2021-04-23 22:09:41,246 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration ntext -> org.hibernate.type.NTextType@2cebf82f
+2021-04-23 22:09:41,250 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration blob -> org.hibernate.type.BlobType@28f8ce2e
+2021-04-23 22:09:41,251 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@28f8ce2e
+2021-04-23 22:09:41,253 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@311a09b2
+2021-04-23 22:09:41,256 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration clob -> org.hibernate.type.ClobType@2a6c751f
+2021-04-23 22:09:41,257 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@2a6c751f
+2021-04-23 22:09:41,260 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration nclob -> org.hibernate.type.NClobType@2ca132ad
+2021-04-23 22:09:41,261 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@2ca132ad
+2021-04-23 22:09:41,263 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@3aab42d6
+2021-04-23 22:09:41,265 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@776e7dfb
+2021-04-23 22:09:41,268 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration serializable -> org.hibernate.type.SerializableType@23358740
+2021-04-23 22:09:41,280 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration object -> org.hibernate.type.ObjectType@6159fb3c
+2021-04-23 22:09:41,281 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@6159fb3c
+2021-04-23 22:09:41,282 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@86bf90b
+2021-04-23 22:09:41,283 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@5c13af01
+2021-04-23 22:09:41,283 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@4aba7617
+2021-04-23 22:09:41,284 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@47c5cbf2
+2021-04-23 22:09:41,284 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@1031c1a0
+2021-04-23 22:09:41,285 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@519b0f00
+2021-04-23 22:09:41,285 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@4888d1ea
+2021-04-23 22:09:41,285 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@217b0952
+2021-04-23 22:09:41,595 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-04-23 22:09:41,759 DEBUG org.hibernate.type.spi.TypeConfiguration$Scope [main] Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@65930e02] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@85c3522]
+2021-04-23 22:09:42,412 DEBUG org.hibernate.type.spi.TypeConfiguration$Scope [main] Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@65930e02] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@7d5d77a6]
+2021-04-23 22:09:43,099 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-23 22:09:43,112 TRACE org.hibernate.type.spi.TypeConfiguration$Scope [main] Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@7d5d77a6] for TypeConfiguration
+2021-04-23 22:09:43,620 DEBUG org.hibernate.stat.internal.StatisticsInitiator [main] Statistics initialized [enabled=true]
+2021-04-23 22:09:43,632 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [main] Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-04-23 22:09:43,638 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [main] Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-04-23 22:09:43,758 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [main] Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-04-23 22:09:43,914 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [main] Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-04-23 22:09:43,926 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [main] Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-04-23 22:09:44,037 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [main] Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-04-23 22:09:44,039 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [main] Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-04-23 22:09:44,049 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [main] Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-04-23 22:09:44,051 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [main] Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-04-23 22:09:45,908 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-23 22:09:47,463 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-04-23 22:09:47,500 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-04-23 22:09:47,547 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-04-23 22:09:47,976 INFO car.hey.listings.ListingsApplicationTests [main] Started ListingsApplicationTests in 16.061 seconds (JVM running for 18.335)
+2021-04-23 22:09:48,675 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-auto-1-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-23 22:09:49,426 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [1] as [INTEGER] - [1]
+2021-04-23 22:09:49,428 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [2] as [VARCHAR] - [1]
+2021-04-23 22:09:49,435 DEBUG org.hibernate.stat.internal.StatisticsImpl [http-nio-auto-1-exec-1] HHH000117: HQL: select generatedAlias0 from Listing as generatedAlias0 where ( generatedAlias0.dealer=:param0 ) and ( generatedAlias0.code=:param1 ), time: 39ms, rows: 0
+2021-04-23 22:09:49,440 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [1] as [INTEGER] - [1]
+2021-04-23 22:09:49,441 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [2] as [VARCHAR] - [2]
+2021-04-23 22:09:49,442 DEBUG org.hibernate.stat.internal.StatisticsImpl [http-nio-auto-1-exec-1] HHH000117: HQL: select generatedAlias0 from Listing as generatedAlias0 where ( generatedAlias0.dealer=:param0 ) and ( generatedAlias0.code=:param1 ), time: 2ms, rows: 0
+2021-04-23 22:09:49,445 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [1] as [INTEGER] - [1]
+2021-04-23 22:09:49,445 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [2] as [VARCHAR] - [3]
+2021-04-23 22:09:49,447 DEBUG org.hibernate.stat.internal.StatisticsImpl [http-nio-auto-1-exec-1] HHH000117: HQL: select generatedAlias0 from Listing as generatedAlias0 where ( generatedAlias0.dealer=:param0 ) and ( generatedAlias0.code=:param1 ), time: 2ms, rows: 0
+2021-04-23 22:09:49,449 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [1] as [INTEGER] - [1]
+2021-04-23 22:09:49,449 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [2] as [VARCHAR] - [4]
+2021-04-23 22:09:49,450 DEBUG org.hibernate.stat.internal.StatisticsImpl [http-nio-auto-1-exec-1] HHH000117: HQL: select generatedAlias0 from Listing as generatedAlias0 where ( generatedAlias0.dealer=:param0 ) and ( generatedAlias0.code=:param1 ), time: 2ms, rows: 0
+2021-04-23 22:09:49,452 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [1] as [INTEGER] - [1]
+2021-04-23 22:09:49,453 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [2] as [VARCHAR] - [5]
+2021-04-23 22:09:49,454 DEBUG org.hibernate.stat.internal.StatisticsImpl [http-nio-auto-1-exec-1] HHH000117: HQL: select generatedAlias0 from Listing as generatedAlias0 where ( generatedAlias0.dealer=:param0 ) and ( generatedAlias0.code=:param1 ), time: 2ms, rows: 0
+2021-04-23 22:09:49,554 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [1] as [VARCHAR] - [1]
+2021-04-23 22:09:49,555 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [2] as [VARCHAR] - [black]
+2021-04-23 22:09:49,556 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [3] as [INTEGER] - [1]
+2021-04-23 22:09:49,556 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [4] as [VARCHAR] - [mercedes]
+2021-04-23 22:09:49,557 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [5] as [VARCHAR] - [mercedes/a180]
+2021-04-23 22:09:49,560 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [6] as [FLOAT] - [123.0]
+2021-04-23 22:09:49,562 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [7] as [FLOAT] - [91.757996]
+2021-04-23 22:09:49,563 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [8] as [FLOAT] - [18250.0]
+2021-04-23 22:09:49,563 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [9] as [INTEGER] - [2014]
+2021-04-23 22:09:49,566 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [10] as [BIGINT] - [1]
+2021-04-23 22:09:49,571 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [1] as [VARCHAR] - [2]
+2021-04-23 22:09:49,571 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [2] as [VARCHAR] - [white]
+2021-04-23 22:09:49,573 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [3] as [INTEGER] - [1]
+2021-04-23 22:09:49,573 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [4] as [VARCHAR] - [audi]
+2021-04-23 22:09:49,574 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [5] as [VARCHAR] - [audi/a3]
+2021-04-23 22:09:49,575 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [6] as [FLOAT] - [111.0]
+2021-04-23 22:09:49,575 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [7] as [FLOAT] - [82.806]
+2021-04-23 22:09:49,576 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [8] as [FLOAT] - [17210.0]
+2021-04-23 22:09:49,576 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [9] as [INTEGER] - [2016]
+2021-04-23 22:09:49,577 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [10] as [BIGINT] - [2]
+2021-04-23 22:09:49,579 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [1] as [VARCHAR] - [3]
+2021-04-23 22:09:49,580 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [2] as [VARCHAR] - [green]
+2021-04-23 22:09:49,580 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [3] as [INTEGER] - [1]
+2021-04-23 22:09:49,580 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [4] as [VARCHAR] - [vw]
+2021-04-23 22:09:49,581 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [5] as [VARCHAR] - [vw/golf]
+2021-04-23 22:09:49,581 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [6] as [FLOAT] - [86.0]
+2021-04-23 22:09:49,582 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [7] as [FLOAT] - [64.156]
+2021-04-23 22:09:49,582 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [8] as [FLOAT] - [14980.0]
+2021-04-23 22:09:49,582 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [9] as [INTEGER] - [2018]
+2021-04-23 22:09:49,583 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [10] as [BIGINT] - [3]
+2021-04-23 22:09:49,584 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [1] as [VARCHAR] - [4]
+2021-04-23 22:09:49,585 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [2] as [VARCHAR] - [red]
+2021-04-23 22:09:49,586 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [3] as [INTEGER] - [1]
+2021-04-23 22:09:49,587 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [4] as [VARCHAR] - [skoda]
+2021-04-23 22:09:49,588 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [5] as [VARCHAR] - [skoda/octavia]
+2021-04-23 22:09:49,588 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [6] as [FLOAT] - [86.0]
+2021-04-23 22:09:49,589 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [7] as [FLOAT] - [64.156]
+2021-04-23 22:09:49,590 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [8] as [FLOAT] - [16990.0]
+2021-04-23 22:09:49,590 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [9] as [INTEGER] - [2018]
+2021-04-23 22:09:49,591 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [10] as [BIGINT] - [4]
+2021-04-23 22:09:49,592 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [1] as [VARCHAR] - [5]
+2021-04-23 22:09:49,593 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [2] as [VARCHAR] - [blue]
+2021-04-23 22:09:49,593 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [3] as [INTEGER] - [1]
+2021-04-23 22:09:49,595 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [4] as [VARCHAR] - [skoda]
+2021-04-23 22:09:49,595 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [5] as [VARCHAR] - [skoda/octavia]
+2021-04-23 22:09:49,596 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [6] as [FLOAT] - [86.0]
+2021-04-23 22:09:49,598 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [7] as [FLOAT] - [64.156]
+2021-04-23 22:09:49,598 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [8] as [FLOAT] - [17990.0]
+2021-04-23 22:09:49,599 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [9] as [INTEGER] - [2016]
+2021-04-23 22:09:49,599 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [10] as [BIGINT] - [5]
+2021-04-23 22:09:49,715 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [http-nio-auto-1-exec-1] Session Metrics {
+    111400 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    9432400 nanoseconds spent preparing 15 JDBC statements;
+    7436600 nanoseconds spent executing 15 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    76275600 nanoseconds spent executing 1 flushes (flushing a total of 5 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-04-23 22:09:49,934 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-2] binding parameter [1] as [VARCHAR] - [black]
+2021-04-23 22:09:49,948 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-2] extracted value ([id1_0_] : [BIGINT]) - [1]
+2021-04-23 22:09:49,958 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-2] extracted value ([code2_0_] : [VARCHAR]) - [1]
+2021-04-23 22:09:49,958 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-2] extracted value ([color3_0_] : [VARCHAR]) - [black]
+2021-04-23 22:09:49,960 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-2] extracted value ([dealer4_0_] : [INTEGER]) - [1]
+2021-04-23 22:09:49,960 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-2] extracted value ([make5_0_] : [VARCHAR]) - [mercedes]
+2021-04-23 22:09:49,963 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-2] extracted value ([model6_0_] : [VARCHAR]) - [mercedes/a180]
+2021-04-23 22:09:49,979 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-2] extracted value ([power_in7_0_] : [FLOAT]) - [123.0]
+2021-04-23 22:09:49,979 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-2] extracted value ([power_in8_0_] : [FLOAT]) - [91.757996]
+2021-04-23 22:09:49,980 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-2] extracted value ([price9_0_] : [FLOAT]) - [18250.0]
+2021-04-23 22:09:49,980 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-2] extracted value ([year10_0_] : [INTEGER]) - [2014]
+2021-04-23 22:09:49,984 DEBUG org.hibernate.stat.internal.StatisticsImpl [http-nio-auto-1-exec-2] HHH000117: HQL: select generatedAlias0 from Listing as generatedAlias0 where generatedAlias0.color=:param0, time: 77ms, rows: 1
+2021-04-23 22:09:49,997 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [http-nio-auto-1-exec-2] Session Metrics {
+    53600 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    919600 nanoseconds spent preparing 1 JDBC statements;
+    682700 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    27800 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-04-23 22:09:50,062 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-2] binding parameter [1] as [VARCHAR] - [skoda]
+2021-04-23 22:09:50,064 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-2] extracted value ([id1_0_] : [BIGINT]) - [4]
+2021-04-23 22:09:50,065 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-2] extracted value ([code2_0_] : [VARCHAR]) - [4]
+2021-04-23 22:09:50,065 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-2] extracted value ([color3_0_] : [VARCHAR]) - [red]
+2021-04-23 22:09:50,065 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-2] extracted value ([dealer4_0_] : [INTEGER]) - [1]
+2021-04-23 22:09:50,065 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-2] extracted value ([make5_0_] : [VARCHAR]) - [skoda]
+2021-04-23 22:09:50,066 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-2] extracted value ([model6_0_] : [VARCHAR]) - [skoda/octavia]
+2021-04-23 22:09:50,066 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-2] extracted value ([power_in7_0_] : [FLOAT]) - [86.0]
+2021-04-23 22:09:50,066 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-2] extracted value ([power_in8_0_] : [FLOAT]) - [64.156]
+2021-04-23 22:09:50,067 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-2] extracted value ([price9_0_] : [FLOAT]) - [16990.0]
+2021-04-23 22:09:50,067 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-2] extracted value ([year10_0_] : [INTEGER]) - [2018]
+2021-04-23 22:09:50,068 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-2] extracted value ([id1_0_] : [BIGINT]) - [5]
+2021-04-23 22:09:50,068 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-2] extracted value ([code2_0_] : [VARCHAR]) - [5]
+2021-04-23 22:09:50,077 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-2] extracted value ([color3_0_] : [VARCHAR]) - [blue]
+2021-04-23 22:09:50,078 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-2] extracted value ([dealer4_0_] : [INTEGER]) - [1]
+2021-04-23 22:09:50,079 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-2] extracted value ([make5_0_] : [VARCHAR]) - [skoda]
+2021-04-23 22:09:50,081 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-2] extracted value ([model6_0_] : [VARCHAR]) - [skoda/octavia]
+2021-04-23 22:09:50,081 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-2] extracted value ([power_in7_0_] : [FLOAT]) - [86.0]
+2021-04-23 22:09:50,082 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-2] extracted value ([power_in8_0_] : [FLOAT]) - [64.156]
+2021-04-23 22:09:50,083 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-2] extracted value ([price9_0_] : [FLOAT]) - [17990.0]
+2021-04-23 22:09:50,083 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-2] extracted value ([year10_0_] : [INTEGER]) - [2016]
+2021-04-23 22:09:50,084 DEBUG org.hibernate.stat.internal.StatisticsImpl [http-nio-auto-1-exec-2] HHH000117: HQL: select generatedAlias0 from Listing as generatedAlias0 where generatedAlias0.make=:param0, time: 29ms, rows: 2
+2021-04-23 22:09:50,101 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [http-nio-auto-1-exec-2] Session Metrics {
+    54400 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    6421300 nanoseconds spent preparing 1 JDBC statements;
+    1016700 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    5000 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-04-23 22:09:50,125 INFO car.hey.listings.controller.ListingController [http-nio-auto-1-exec-4] Upserting 2 listings by JSON endpoint from dealer 1
+2021-04-23 22:09:50,128 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [1] as [INTEGER] - [1]
+2021-04-23 22:09:50,128 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [2] as [VARCHAR] - [5]
+2021-04-23 22:09:50,129 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([id1_0_] : [BIGINT]) - [5]
+2021-04-23 22:09:50,132 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([code2_0_] : [VARCHAR]) - [5]
+2021-04-23 22:09:50,134 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([color3_0_] : [VARCHAR]) - [blue]
+2021-04-23 22:09:50,136 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([dealer4_0_] : [INTEGER]) - [1]
+2021-04-23 22:09:50,138 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([make5_0_] : [VARCHAR]) - [skoda]
+2021-04-23 22:09:50,141 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([model6_0_] : [VARCHAR]) - [skoda/octavia]
+2021-04-23 22:09:50,142 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([power_in7_0_] : [FLOAT]) - [86.0]
+2021-04-23 22:09:50,232 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([power_in8_0_] : [FLOAT]) - [64.156]
+2021-04-23 22:09:50,233 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([price9_0_] : [FLOAT]) - [17990.0]
+2021-04-23 22:09:50,233 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([year10_0_] : [INTEGER]) - [2016]
+2021-04-23 22:09:50,234 DEBUG org.hibernate.stat.internal.StatisticsImpl [http-nio-auto-1-exec-4] HHH000117: HQL: select generatedAlias0 from Listing as generatedAlias0 where ( generatedAlias0.dealer=:param0 ) and ( generatedAlias0.code=:param1 ), time: 107ms, rows: 1
+2021-04-23 22:09:50,237 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [1] as [INTEGER] - [1]
+2021-04-23 22:09:50,237 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [2] as [VARCHAR] - [6]
+2021-04-23 22:09:50,245 DEBUG org.hibernate.stat.internal.StatisticsImpl [http-nio-auto-1-exec-4] HHH000117: HQL: select generatedAlias0 from Listing as generatedAlias0 where ( generatedAlias0.dealer=:param0 ) and ( generatedAlias0.code=:param1 ), time: 8ms, rows: 0
+2021-04-23 22:09:50,272 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [1] as [VARCHAR] - [6]
+2021-04-23 22:09:50,273 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [2] as [VARCHAR] - [black]
+2021-04-23 22:09:50,274 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [3] as [INTEGER] - [1]
+2021-04-23 22:09:50,274 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [4] as [VARCHAR] - [audi]
+2021-04-23 22:09:50,274 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [5] as [VARCHAR] - [quattro]
+2021-04-23 22:09:50,275 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [6] as [FLOAT] - [224.0]
+2021-04-23 22:09:50,276 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [7] as [FLOAT] - [null]
+2021-04-23 22:09:50,279 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [8] as [FLOAT] - [32000.0]
+2021-04-23 22:09:50,279 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [9] as [INTEGER] - [2012]
+2021-04-23 22:09:50,280 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [10] as [BIGINT] - [6]
+2021-04-23 22:09:50,287 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [1] as [VARCHAR] - [5]
+2021-04-23 22:09:50,287 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [2] as [VARCHAR] - [brown]
+2021-04-23 22:09:50,287 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [3] as [INTEGER] - [1]
+2021-04-23 22:09:50,287 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [4] as [VARCHAR] - [audi]
+2021-04-23 22:09:50,288 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [5] as [VARCHAR] - [tt]
+2021-04-23 22:09:50,288 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [6] as [FLOAT] - [124.0]
+2021-04-23 22:09:50,288 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [7] as [FLOAT] - [null]
+2021-04-23 22:09:50,288 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [8] as [FLOAT] - [12000.0]
+2021-04-23 22:09:50,288 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [9] as [INTEGER] - [2008]
+2021-04-23 22:09:50,289 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [10] as [BIGINT] - [5]
+2021-04-23 22:09:50,310 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [http-nio-auto-1-exec-4] Session Metrics {
+    89600 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    2667800 nanoseconds spent preparing 5 JDBC statements;
+    8521500 nanoseconds spent executing 5 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    23852000 nanoseconds spent executing 1 flushes (flushing a total of 2 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-04-23 22:09:50,335 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-5] binding parameter [1] as [VARCHAR] - [audi]
+2021-04-23 22:09:50,336 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-5] extracted value ([id1_0_] : [BIGINT]) - [2]
+2021-04-23 22:09:50,337 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-5] extracted value ([code2_0_] : [VARCHAR]) - [2]
+2021-04-23 22:09:50,337 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-5] extracted value ([color3_0_] : [VARCHAR]) - [white]
+2021-04-23 22:09:50,337 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-5] extracted value ([dealer4_0_] : [INTEGER]) - [1]
+2021-04-23 22:09:50,338 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-5] extracted value ([make5_0_] : [VARCHAR]) - [audi]
+2021-04-23 22:09:50,338 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-5] extracted value ([model6_0_] : [VARCHAR]) - [audi/a3]
+2021-04-23 22:09:50,338 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-5] extracted value ([power_in7_0_] : [FLOAT]) - [111.0]
+2021-04-23 22:09:50,338 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-5] extracted value ([power_in8_0_] : [FLOAT]) - [82.806]
+2021-04-23 22:09:50,338 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-5] extracted value ([price9_0_] : [FLOAT]) - [17210.0]
+2021-04-23 22:09:50,339 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-5] extracted value ([year10_0_] : [INTEGER]) - [2016]
+2021-04-23 22:09:50,339 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-5] extracted value ([id1_0_] : [BIGINT]) - [5]
+2021-04-23 22:09:50,339 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-5] extracted value ([code2_0_] : [VARCHAR]) - [5]
+2021-04-23 22:09:50,340 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-5] extracted value ([color3_0_] : [VARCHAR]) - [brown]
+2021-04-23 22:09:50,340 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-5] extracted value ([dealer4_0_] : [INTEGER]) - [1]
+2021-04-23 22:09:50,340 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-5] extracted value ([make5_0_] : [VARCHAR]) - [audi]
+2021-04-23 22:09:50,340 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-5] extracted value ([model6_0_] : [VARCHAR]) - [tt]
+2021-04-23 22:09:50,340 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-5] extracted value ([power_in7_0_] : [FLOAT]) - [124.0]
+2021-04-23 22:09:50,341 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-5] extracted value ([power_in8_0_] : [FLOAT]) - [null]
+2021-04-23 22:09:50,341 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-5] extracted value ([price9_0_] : [FLOAT]) - [12000.0]
+2021-04-23 22:09:50,341 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-5] extracted value ([year10_0_] : [INTEGER]) - [2008]
+2021-04-23 22:09:50,342 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-5] extracted value ([id1_0_] : [BIGINT]) - [6]
+2021-04-23 22:09:50,342 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-5] extracted value ([code2_0_] : [VARCHAR]) - [6]
+2021-04-23 22:09:50,342 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-5] extracted value ([color3_0_] : [VARCHAR]) - [black]
+2021-04-23 22:09:50,343 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-5] extracted value ([dealer4_0_] : [INTEGER]) - [1]
+2021-04-23 22:09:50,343 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-5] extracted value ([make5_0_] : [VARCHAR]) - [audi]
+2021-04-23 22:09:50,343 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-5] extracted value ([model6_0_] : [VARCHAR]) - [quattro]
+2021-04-23 22:09:50,343 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-5] extracted value ([power_in7_0_] : [FLOAT]) - [224.0]
+2021-04-23 22:09:50,343 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-5] extracted value ([power_in8_0_] : [FLOAT]) - [null]
+2021-04-23 22:09:50,344 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-5] extracted value ([price9_0_] : [FLOAT]) - [32000.0]
+2021-04-23 22:09:50,344 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-5] extracted value ([year10_0_] : [INTEGER]) - [2012]
+2021-04-23 22:09:50,345 DEBUG org.hibernate.stat.internal.StatisticsImpl [http-nio-auto-1-exec-5] HHH000117: HQL: select generatedAlias0 from Listing as generatedAlias0 where generatedAlias0.make=:param0, time: 9ms, rows: 3
+2021-04-23 22:09:50,349 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [http-nio-auto-1-exec-5] Session Metrics {
+    63800 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    55900 nanoseconds spent preparing 1 JDBC statements;
+    479400 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    4400 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-04-23 22:09:50,501 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-6] binding parameter [1] as [INTEGER] - [1]
+2021-04-23 22:09:50,501 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-6] binding parameter [2] as [VARCHAR] - [1]
+2021-04-23 22:09:50,502 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([id1_0_] : [BIGINT]) - [1]
+2021-04-23 22:09:50,506 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([code2_0_] : [VARCHAR]) - [1]
+2021-04-23 22:09:50,506 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([color3_0_] : [VARCHAR]) - [black]
+2021-04-23 22:09:50,506 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([dealer4_0_] : [INTEGER]) - [1]
+2021-04-23 22:09:50,507 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([make5_0_] : [VARCHAR]) - [mercedes]
+2021-04-23 22:09:50,507 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([model6_0_] : [VARCHAR]) - [mercedes/a180]
+2021-04-23 22:09:50,507 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([power_in7_0_] : [FLOAT]) - [123.0]
+2021-04-23 22:09:50,507 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([power_in8_0_] : [FLOAT]) - [91.757996]
+2021-04-23 22:09:50,507 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([price9_0_] : [FLOAT]) - [18250.0]
+2021-04-23 22:09:50,508 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([year10_0_] : [INTEGER]) - [2014]
+2021-04-23 22:09:50,508 DEBUG org.hibernate.stat.internal.StatisticsImpl [http-nio-auto-1-exec-6] HHH000117: HQL: select generatedAlias0 from Listing as generatedAlias0 where ( generatedAlias0.dealer=:param0 ) and ( generatedAlias0.code=:param1 ), time: 8ms, rows: 1
+2021-04-23 22:09:50,511 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-6] binding parameter [1] as [INTEGER] - [1]
+2021-04-23 22:09:50,511 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-6] binding parameter [2] as [VARCHAR] - [2]
+2021-04-23 22:09:50,513 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([id1_0_] : [BIGINT]) - [2]
+2021-04-23 22:09:50,514 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([code2_0_] : [VARCHAR]) - [2]
+2021-04-23 22:09:50,514 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([color3_0_] : [VARCHAR]) - [white]
+2021-04-23 22:09:50,515 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([dealer4_0_] : [INTEGER]) - [1]
+2021-04-23 22:09:50,515 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([make5_0_] : [VARCHAR]) - [audi]
+2021-04-23 22:09:50,515 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([model6_0_] : [VARCHAR]) - [audi/a3]
+2021-04-23 22:09:50,516 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([power_in7_0_] : [FLOAT]) - [111.0]
+2021-04-23 22:09:50,516 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([power_in8_0_] : [FLOAT]) - [82.806]
+2021-04-23 22:09:50,516 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([price9_0_] : [FLOAT]) - [17210.0]
+2021-04-23 22:09:50,516 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([year10_0_] : [INTEGER]) - [2016]
+2021-04-23 22:09:50,517 DEBUG org.hibernate.stat.internal.StatisticsImpl [http-nio-auto-1-exec-6] HHH000117: HQL: select generatedAlias0 from Listing as generatedAlias0 where ( generatedAlias0.dealer=:param0 ) and ( generatedAlias0.code=:param1 ), time: 7ms, rows: 1
+2021-04-23 22:09:50,523 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-6] binding parameter [1] as [INTEGER] - [1]
+2021-04-23 22:09:50,524 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-6] binding parameter [2] as [VARCHAR] - [3]
+2021-04-23 22:09:50,526 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([id1_0_] : [BIGINT]) - [3]
+2021-04-23 22:09:50,527 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([code2_0_] : [VARCHAR]) - [3]
+2021-04-23 22:09:50,527 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([color3_0_] : [VARCHAR]) - [green]
+2021-04-23 22:09:50,527 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([dealer4_0_] : [INTEGER]) - [1]
+2021-04-23 22:09:50,527 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([make5_0_] : [VARCHAR]) - [vw]
+2021-04-23 22:09:50,528 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([model6_0_] : [VARCHAR]) - [vw/golf]
+2021-04-23 22:09:50,528 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([power_in7_0_] : [FLOAT]) - [86.0]
+2021-04-23 22:09:50,528 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([power_in8_0_] : [FLOAT]) - [64.156]
+2021-04-23 22:09:50,528 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([price9_0_] : [FLOAT]) - [14980.0]
+2021-04-23 22:09:50,529 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([year10_0_] : [INTEGER]) - [2018]
+2021-04-23 22:09:50,529 DEBUG org.hibernate.stat.internal.StatisticsImpl [http-nio-auto-1-exec-6] HHH000117: HQL: select generatedAlias0 from Listing as generatedAlias0 where ( generatedAlias0.dealer=:param0 ) and ( generatedAlias0.code=:param1 ), time: 7ms, rows: 1
+2021-04-23 22:09:50,531 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-6] binding parameter [1] as [INTEGER] - [1]
+2021-04-23 22:09:50,531 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-6] binding parameter [2] as [VARCHAR] - [4]
+2021-04-23 22:09:50,533 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([id1_0_] : [BIGINT]) - [4]
+2021-04-23 22:09:50,534 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([code2_0_] : [VARCHAR]) - [4]
+2021-04-23 22:09:50,534 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([color3_0_] : [VARCHAR]) - [red]
+2021-04-23 22:09:50,534 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([dealer4_0_] : [INTEGER]) - [1]
+2021-04-23 22:09:50,535 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([make5_0_] : [VARCHAR]) - [skoda]
+2021-04-23 22:09:50,535 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([model6_0_] : [VARCHAR]) - [skoda/octavia]
+2021-04-23 22:09:50,536 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([power_in7_0_] : [FLOAT]) - [86.0]
+2021-04-23 22:09:50,536 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([power_in8_0_] : [FLOAT]) - [64.156]
+2021-04-23 22:09:50,536 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([price9_0_] : [FLOAT]) - [16990.0]
+2021-04-23 22:09:50,537 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([year10_0_] : [INTEGER]) - [2018]
+2021-04-23 22:09:50,537 DEBUG org.hibernate.stat.internal.StatisticsImpl [http-nio-auto-1-exec-6] HHH000117: HQL: select generatedAlias0 from Listing as generatedAlias0 where ( generatedAlias0.dealer=:param0 ) and ( generatedAlias0.code=:param1 ), time: 6ms, rows: 1
+2021-04-23 22:09:50,539 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-6] binding parameter [1] as [INTEGER] - [1]
+2021-04-23 22:09:50,539 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-6] binding parameter [2] as [VARCHAR] - [5]
+2021-04-23 22:09:50,540 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([id1_0_] : [BIGINT]) - [5]
+2021-04-23 22:09:50,541 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([code2_0_] : [VARCHAR]) - [5]
+2021-04-23 22:09:50,541 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([color3_0_] : [VARCHAR]) - [brown]
+2021-04-23 22:09:50,541 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([dealer4_0_] : [INTEGER]) - [1]
+2021-04-23 22:09:50,542 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([make5_0_] : [VARCHAR]) - [audi]
+2021-04-23 22:09:50,542 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([model6_0_] : [VARCHAR]) - [tt]
+2021-04-23 22:09:50,542 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([power_in7_0_] : [FLOAT]) - [124.0]
+2021-04-23 22:09:50,542 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([power_in8_0_] : [FLOAT]) - [null]
+2021-04-23 22:09:50,544 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([price9_0_] : [FLOAT]) - [12000.0]
+2021-04-23 22:09:50,544 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([year10_0_] : [INTEGER]) - [2008]
+2021-04-23 22:09:50,545 DEBUG org.hibernate.stat.internal.StatisticsImpl [http-nio-auto-1-exec-6] HHH000117: HQL: select generatedAlias0 from Listing as generatedAlias0 where ( generatedAlias0.dealer=:param0 ) and ( generatedAlias0.code=:param1 ), time: 6ms, rows: 1
+2021-04-23 22:09:50,547 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-6] binding parameter [1] as [INTEGER] - [1]
+2021-04-23 22:09:50,547 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-6] binding parameter [2] as [VARCHAR] - [6]
+2021-04-23 22:09:50,564 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([id1_0_] : [BIGINT]) - [6]
+2021-04-23 22:09:50,565 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([code2_0_] : [VARCHAR]) - [6]
+2021-04-23 22:09:50,565 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([color3_0_] : [VARCHAR]) - [black]
+2021-04-23 22:09:50,565 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([dealer4_0_] : [INTEGER]) - [1]
+2021-04-23 22:09:50,566 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([make5_0_] : [VARCHAR]) - [audi]
+2021-04-23 22:09:50,566 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([model6_0_] : [VARCHAR]) - [quattro]
+2021-04-23 22:09:50,566 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([power_in7_0_] : [FLOAT]) - [224.0]
+2021-04-23 22:09:50,566 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([power_in8_0_] : [FLOAT]) - [null]
+2021-04-23 22:09:50,567 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([price9_0_] : [FLOAT]) - [32000.0]
+2021-04-23 22:09:50,567 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([year10_0_] : [INTEGER]) - [2012]
+2021-04-23 22:09:50,567 DEBUG org.hibernate.stat.internal.StatisticsImpl [http-nio-auto-1-exec-6] HHH000117: HQL: select generatedAlias0 from Listing as generatedAlias0 where ( generatedAlias0.dealer=:param0 ) and ( generatedAlias0.code=:param1 ), time: 21ms, rows: 1
+2021-04-23 22:09:50,573 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-6] binding parameter [1] as [VARCHAR] - [1]
+2021-04-23 22:09:50,575 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-6] binding parameter [2] as [VARCHAR] - [black]
+2021-04-23 22:09:50,576 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-6] binding parameter [3] as [INTEGER] - [1]
+2021-04-23 22:09:50,576 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-6] binding parameter [4] as [VARCHAR] - [mercedes]
+2021-04-23 22:09:50,576 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-6] binding parameter [5] as [VARCHAR] - [mercedes/a180]
+2021-04-23 22:09:50,576 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-6] binding parameter [6] as [FLOAT] - [123.0]
+2021-04-23 22:09:50,577 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-6] binding parameter [7] as [FLOAT] - [91.757996]
+2021-04-23 22:09:50,578 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-6] binding parameter [8] as [FLOAT] - [17250.0]
+2021-04-23 22:09:50,582 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-6] binding parameter [9] as [INTEGER] - [2014]
+2021-04-23 22:09:50,582 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-6] binding parameter [10] as [BIGINT] - [1]
+2021-04-23 22:09:50,586 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-6] binding parameter [1] as [VARCHAR] - [2]
+2021-04-23 22:09:50,586 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-6] binding parameter [2] as [VARCHAR] - [white]
+2021-04-23 22:09:50,587 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-6] binding parameter [3] as [INTEGER] - [1]
+2021-04-23 22:09:50,587 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-6] binding parameter [4] as [VARCHAR] - [audi]
+2021-04-23 22:09:50,587 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-6] binding parameter [5] as [VARCHAR] - [audi/a3]
+2021-04-23 22:09:50,588 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-6] binding parameter [6] as [FLOAT] - [111.0]
+2021-04-23 22:09:50,588 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-6] binding parameter [7] as [FLOAT] - [82.806]
+2021-04-23 22:09:50,589 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-6] binding parameter [8] as [FLOAT] - [16210.0]
+2021-04-23 22:09:50,589 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-6] binding parameter [9] as [INTEGER] - [2016]
+2021-04-23 22:09:50,589 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-6] binding parameter [10] as [BIGINT] - [2]
+2021-04-23 22:09:50,599 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-6] binding parameter [1] as [VARCHAR] - [5]
+2021-04-23 22:09:50,600 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-6] binding parameter [2] as [VARCHAR] - [blue]
+2021-04-23 22:09:50,668 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-6] binding parameter [3] as [INTEGER] - [1]
+2021-04-23 22:09:50,669 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-6] binding parameter [4] as [VARCHAR] - [skoda]
+2021-04-23 22:09:50,669 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-6] binding parameter [5] as [VARCHAR] - [skoda/octavia]
+2021-04-23 22:09:50,669 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-6] binding parameter [6] as [FLOAT] - [86.0]
+2021-04-23 22:09:50,675 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-6] binding parameter [7] as [FLOAT] - [64.156]
+2021-04-23 22:09:50,677 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-6] binding parameter [8] as [FLOAT] - [17990.0]
+2021-04-23 22:09:50,678 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-6] binding parameter [9] as [INTEGER] - [2016]
+2021-04-23 22:09:50,678 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-6] binding parameter [10] as [BIGINT] - [5]
+2021-04-23 22:09:50,684 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-6] binding parameter [1] as [VARCHAR] - [6]
+2021-04-23 22:09:50,685 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-6] binding parameter [2] as [VARCHAR] - [red]
+2021-04-23 22:09:50,685 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-6] binding parameter [3] as [INTEGER] - [1]
+2021-04-23 22:09:50,686 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-6] binding parameter [4] as [VARCHAR] - [skoda]
+2021-04-23 22:09:50,686 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-6] binding parameter [5] as [VARCHAR] - [skoda/octavia]
+2021-04-23 22:09:50,686 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-6] binding parameter [6] as [FLOAT] - [86.0]
+2021-04-23 22:09:50,690 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-6] binding parameter [7] as [FLOAT] - [64.156]
+2021-04-23 22:09:50,717 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-6] binding parameter [8] as [FLOAT] - [16000.0]
+2021-04-23 22:09:50,732 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-6] binding parameter [9] as [INTEGER] - [2012]
+2021-04-23 22:09:50,732 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-6] binding parameter [10] as [BIGINT] - [6]
+2021-04-23 22:09:50,771 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [http-nio-auto-1-exec-6] Session Metrics {
+    100000 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    4013400 nanoseconds spent preparing 10 JDBC statements;
+    21111300 nanoseconds spent executing 10 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    165978900 nanoseconds spent executing 1 flushes (flushing a total of 6 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-04-23 22:09:50,778 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-7] binding parameter [1] as [VARCHAR] - [white]
+2021-04-23 22:09:50,781 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-7] extracted value ([id1_0_] : [BIGINT]) - [2]
+2021-04-23 22:09:50,782 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-7] extracted value ([code2_0_] : [VARCHAR]) - [2]
+2021-04-23 22:09:50,782 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-7] extracted value ([color3_0_] : [VARCHAR]) - [white]
+2021-04-23 22:09:50,782 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-7] extracted value ([dealer4_0_] : [INTEGER]) - [1]
+2021-04-23 22:09:50,782 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-7] extracted value ([make5_0_] : [VARCHAR]) - [audi]
+2021-04-23 22:09:50,783 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-7] extracted value ([model6_0_] : [VARCHAR]) - [audi/a3]
+2021-04-23 22:09:50,783 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-7] extracted value ([power_in7_0_] : [FLOAT]) - [111.0]
+2021-04-23 22:09:50,784 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-7] extracted value ([power_in8_0_] : [FLOAT]) - [82.806]
+2021-04-23 22:09:50,784 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-7] extracted value ([price9_0_] : [FLOAT]) - [16210.0]
+2021-04-23 22:09:50,784 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-7] extracted value ([year10_0_] : [INTEGER]) - [2016]
+2021-04-23 22:09:50,787 DEBUG org.hibernate.stat.internal.StatisticsImpl [http-nio-auto-1-exec-7] HHH000117: HQL: select generatedAlias0 from Listing as generatedAlias0 where generatedAlias0.color=:param0, time: 12ms, rows: 1
+2021-04-23 22:09:50,803 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [http-nio-auto-1-exec-7] Session Metrics {
+    74600 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    712700 nanoseconds spent preparing 1 JDBC statements;
+    984500 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    6300 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-04-23 22:09:51,320 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringContextShutdownHook] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-04-23 22:09:51,339 TRACE org.hibernate.type.spi.TypeConfiguration$Scope [SpringContextShutdownHook] Handling #sessionFactoryClosed from [org.hibernate.internal.SessionFactoryImpl@7d5d77a6] for TypeConfiguration
+2021-04-23 22:09:51,340 DEBUG org.hibernate.type.spi.TypeConfiguration$Scope [SpringContextShutdownHook] Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@605ab485] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@7d5d77a6]
+2021-04-23 22:09:51,345 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-04-23 22:09:51,353 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2021-04-23 22:10:11,135 INFO car.hey.listings.ListingsApplicationTests [main] Starting ListingsApplicationTests using Java 16.0.1 on DESKTOP-2QT2LCO with PID 8224 (started by ardab in C:\Users\ardab\Downloads\listings)
+2021-04-23 22:10:11,145 INFO car.hey.listings.ListingsApplicationTests [main] No active profile set, falling back to default profiles: default
+2021-04-23 22:10:16,157 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-04-23 22:10:16,158 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-23 22:10:16,487 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-04-23 22:10:17,099 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-04-23 22:10:17,486 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-04-23 22:10:18,093 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-23 22:10:18,221 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-04-23 22:10:18,534 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-23 22:10:18,597 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration boolean -> org.hibernate.type.BooleanType@2cf88901
+2021-04-23 22:10:18,598 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration boolean -> org.hibernate.type.BooleanType@2cf88901
+2021-04-23 22:10:18,599 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@2cf88901
+2021-04-23 22:10:18,600 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@9f2fe2e
+2021-04-23 22:10:18,602 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration true_false -> org.hibernate.type.TrueFalseType@50bb1c1f
+2021-04-23 22:10:18,604 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration yes_no -> org.hibernate.type.YesNoType@b4d83ac
+2021-04-23 22:10:18,608 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration byte -> org.hibernate.type.ByteType@76b642aa
+2021-04-23 22:10:18,608 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration byte -> org.hibernate.type.ByteType@76b642aa
+2021-04-23 22:10:18,609 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@76b642aa
+2021-04-23 22:10:18,612 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration character -> org.hibernate.type.CharacterType@42066f0d
+2021-04-23 22:10:18,612 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration char -> org.hibernate.type.CharacterType@42066f0d
+2021-04-23 22:10:18,613 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@42066f0d
+2021-04-23 22:10:18,616 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration short -> org.hibernate.type.ShortType@38923cfe
+2021-04-23 22:10:18,617 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration short -> org.hibernate.type.ShortType@38923cfe
+2021-04-23 22:10:18,618 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.lang.Short -> org.hibernate.type.ShortType@38923cfe
+2021-04-23 22:10:18,620 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration integer -> org.hibernate.type.IntegerType@7e1762e6
+2021-04-23 22:10:18,621 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration int -> org.hibernate.type.IntegerType@7e1762e6
+2021-04-23 22:10:18,622 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@7e1762e6
+2021-04-23 22:10:18,624 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration long -> org.hibernate.type.LongType@3cb173db
+2021-04-23 22:10:18,625 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration long -> org.hibernate.type.LongType@3cb173db
+2021-04-23 22:10:18,626 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.lang.Long -> org.hibernate.type.LongType@3cb173db
+2021-04-23 22:10:18,629 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration float -> org.hibernate.type.FloatType@16e5344c
+2021-04-23 22:10:18,630 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration float -> org.hibernate.type.FloatType@16e5344c
+2021-04-23 22:10:18,630 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.lang.Float -> org.hibernate.type.FloatType@16e5344c
+2021-04-23 22:10:18,632 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration double -> org.hibernate.type.DoubleType@2bc2e022
+2021-04-23 22:10:18,633 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration double -> org.hibernate.type.DoubleType@2bc2e022
+2021-04-23 22:10:18,633 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@2bc2e022
+2021-04-23 22:10:18,635 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@3c6fb501
+2021-04-23 22:10:18,635 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@3c6fb501
+2021-04-23 22:10:18,638 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration big_integer -> org.hibernate.type.BigIntegerType@5abc5854
+2021-04-23 22:10:18,638 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@5abc5854
+2021-04-23 22:10:18,640 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration string -> org.hibernate.type.StringType@54b2d002
+2021-04-23 22:10:18,641 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.lang.String -> org.hibernate.type.StringType@54b2d002
+2021-04-23 22:10:18,643 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration nstring -> org.hibernate.type.StringNVarcharType@7b795db7
+2021-04-23 22:10:18,644 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@4e9ea32f
+2021-04-23 22:10:18,647 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration url -> org.hibernate.type.UrlType@40ddf339
+2021-04-23 22:10:18,648 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.net.URL -> org.hibernate.type.UrlType@40ddf339
+2021-04-23 22:10:18,650 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration Duration -> org.hibernate.type.DurationType@4ec27c4c
+2021-04-23 22:10:18,651 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.time.Duration -> org.hibernate.type.DurationType@4ec27c4c
+2021-04-23 22:10:18,653 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration Instant -> org.hibernate.type.InstantType@6207145c
+2021-04-23 22:10:18,654 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.time.Instant -> org.hibernate.type.InstantType@6207145c
+2021-04-23 22:10:18,657 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@4148ce43
+2021-04-23 22:10:18,659 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@4148ce43
+2021-04-23 22:10:18,663 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration LocalDate -> org.hibernate.type.LocalDateType@2633d09c
+2021-04-23 22:10:18,664 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@2633d09c
+2021-04-23 22:10:18,667 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@64d93096
+2021-04-23 22:10:18,667 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@64d93096
+2021-04-23 22:10:18,669 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@46e6458d
+2021-04-23 22:10:18,670 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@46e6458d
+2021-04-23 22:10:18,671 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@29bd056a
+2021-04-23 22:10:18,672 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@29bd056a
+2021-04-23 22:10:18,674 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@2904bc56
+2021-04-23 22:10:18,675 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@2904bc56
+2021-04-23 22:10:18,678 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration date -> org.hibernate.type.DateType@4ac7856f
+2021-04-23 22:10:18,679 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.sql.Date -> org.hibernate.type.DateType@4ac7856f
+2021-04-23 22:10:18,682 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration time -> org.hibernate.type.TimeType@6dde1bf5
+2021-04-23 22:10:18,682 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.sql.Time -> org.hibernate.type.TimeType@6dde1bf5
+2021-04-23 22:10:18,684 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration timestamp -> org.hibernate.type.TimestampType@2fa47368
+2021-04-23 22:10:18,685 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@2fa47368
+2021-04-23 22:10:18,686 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.util.Date -> org.hibernate.type.TimestampType@2fa47368
+2021-04-23 22:10:18,688 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@12e3f4ae
+2021-04-23 22:10:18,690 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration calendar -> org.hibernate.type.CalendarType@5d7ff311
+2021-04-23 22:10:18,691 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@5d7ff311
+2021-04-23 22:10:18,691 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@5d7ff311
+2021-04-23 22:10:18,693 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@2cff03cf
+2021-04-23 22:10:18,695 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@279e1422
+2021-04-23 22:10:18,697 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration locale -> org.hibernate.type.LocaleType@2f0e7fa8
+2021-04-23 22:10:18,697 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@2f0e7fa8
+2021-04-23 22:10:18,700 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration currency -> org.hibernate.type.CurrencyType@1cab19e2
+2021-04-23 22:10:18,700 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@1cab19e2
+2021-04-23 22:10:18,703 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration timezone -> org.hibernate.type.TimeZoneType@d3d5094
+2021-04-23 22:10:18,703 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@d3d5094
+2021-04-23 22:10:18,706 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration class -> org.hibernate.type.ClassType@7b8cb283
+2021-04-23 22:10:18,706 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.lang.Class -> org.hibernate.type.ClassType@7b8cb283
+2021-04-23 22:10:18,708 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@63880be9
+2021-04-23 22:10:18,709 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@63880be9
+2021-04-23 22:10:18,711 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@45539bd8
+2021-04-23 22:10:18,714 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration binary -> org.hibernate.type.BinaryType@4df13dd0
+2021-04-23 22:10:18,714 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration byte[] -> org.hibernate.type.BinaryType@4df13dd0
+2021-04-23 22:10:18,715 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration [B -> org.hibernate.type.BinaryType@4df13dd0
+2021-04-23 22:10:18,717 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@15ad5acb
+2021-04-23 22:10:18,717 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@15ad5acb
+2021-04-23 22:10:18,718 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@15ad5acb
+2021-04-23 22:10:18,720 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration row_version -> org.hibernate.type.RowVersionType@351e86b2
+2021-04-23 22:10:18,722 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration image -> org.hibernate.type.ImageType@57a5b03
+2021-04-23 22:10:18,723 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration characters -> org.hibernate.type.CharArrayType@12532e37
+2021-04-23 22:10:18,724 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration char[] -> org.hibernate.type.CharArrayType@12532e37
+2021-04-23 22:10:18,724 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration [C -> org.hibernate.type.CharArrayType@12532e37
+2021-04-23 22:10:18,725 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@72585e83
+2021-04-23 22:10:18,726 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@72585e83
+2021-04-23 22:10:18,726 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@72585e83
+2021-04-23 22:10:18,727 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration text -> org.hibernate.type.TextType@48da64f2
+2021-04-23 22:10:18,727 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration ntext -> org.hibernate.type.NTextType@7d4da729
+2021-04-23 22:10:18,730 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration blob -> org.hibernate.type.BlobType@1791e231
+2021-04-23 22:10:18,730 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@1791e231
+2021-04-23 22:10:18,731 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@3cb49121
+2021-04-23 22:10:18,733 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration clob -> org.hibernate.type.ClobType@5a63fa71
+2021-04-23 22:10:18,733 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@5a63fa71
+2021-04-23 22:10:18,736 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration nclob -> org.hibernate.type.NClobType@5e05a706
+2021-04-23 22:10:18,736 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@5e05a706
+2021-04-23 22:10:18,738 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@543ac221
+2021-04-23 22:10:18,739 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@56da8847
+2021-04-23 22:10:18,742 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration serializable -> org.hibernate.type.SerializableType@33fec21
+2021-04-23 22:10:18,747 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration object -> org.hibernate.type.ObjectType@166ddfb7
+2021-04-23 22:10:18,747 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@166ddfb7
+2021-04-23 22:10:18,748 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@291cbe70
+2021-04-23 22:10:18,748 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@6be422da
+2021-04-23 22:10:18,748 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@225ddf5f
+2021-04-23 22:10:18,748 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@51468039
+2021-04-23 22:10:18,749 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@1d654b5f
+2021-04-23 22:10:18,749 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@575d48db
+2021-04-23 22:10:18,749 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@1b36d248
+2021-04-23 22:10:18,751 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@7e94de5f
+2021-04-23 22:10:18,917 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-04-23 22:10:19,102 DEBUG org.hibernate.type.spi.TypeConfiguration$Scope [main] Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@5305f936] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@2b1a1a37]
+2021-04-23 22:10:19,639 DEBUG org.hibernate.type.spi.TypeConfiguration$Scope [main] Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@5305f936] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@1734b1a]
+2021-04-23 22:10:20,234 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-23 22:10:20,244 TRACE org.hibernate.type.spi.TypeConfiguration$Scope [main] Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@1734b1a] for TypeConfiguration
+2021-04-23 22:10:20,657 DEBUG org.hibernate.stat.internal.StatisticsInitiator [main] Statistics initialized [enabled=true]
+2021-04-23 22:10:20,668 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [main] Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-04-23 22:10:20,671 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [main] Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-04-23 22:10:20,781 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [main] Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-04-23 22:10:20,928 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [main] Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-04-23 22:10:20,936 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [main] Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-04-23 22:10:21,042 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [main] Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-04-23 22:10:21,043 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [main] Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-04-23 22:10:21,050 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [main] Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-04-23 22:10:21,053 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [main] Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-04-23 22:10:22,496 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-23 22:10:23,825 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-04-23 22:10:23,873 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-04-23 22:10:23,922 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-04-23 22:10:24,247 INFO car.hey.listings.ListingsApplicationTests [main] Started ListingsApplicationTests in 13.879 seconds (JVM running for 17.597)
+2021-04-23 22:10:24,962 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-auto-1-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-23 22:10:25,483 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [1] as [INTEGER] - [1]
+2021-04-23 22:10:25,484 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [2] as [VARCHAR] - [1]
+2021-04-23 22:10:25,492 DEBUG org.hibernate.stat.internal.StatisticsImpl [http-nio-auto-1-exec-1] HHH000117: HQL: select generatedAlias0 from Listing as generatedAlias0 where ( generatedAlias0.dealer=:param0 ) and ( generatedAlias0.code=:param1 ), time: 20ms, rows: 0
+2021-04-23 22:10:25,498 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [1] as [INTEGER] - [1]
+2021-04-23 22:10:25,499 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [2] as [VARCHAR] - [2]
+2021-04-23 22:10:25,499 DEBUG org.hibernate.stat.internal.StatisticsImpl [http-nio-auto-1-exec-1] HHH000117: HQL: select generatedAlias0 from Listing as generatedAlias0 where ( generatedAlias0.dealer=:param0 ) and ( generatedAlias0.code=:param1 ), time: 2ms, rows: 0
+2021-04-23 22:10:25,501 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [1] as [INTEGER] - [1]
+2021-04-23 22:10:25,501 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [2] as [VARCHAR] - [3]
+2021-04-23 22:10:25,502 DEBUG org.hibernate.stat.internal.StatisticsImpl [http-nio-auto-1-exec-1] HHH000117: HQL: select generatedAlias0 from Listing as generatedAlias0 where ( generatedAlias0.dealer=:param0 ) and ( generatedAlias0.code=:param1 ), time: 1ms, rows: 0
+2021-04-23 22:10:25,503 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [1] as [INTEGER] - [1]
+2021-04-23 22:10:25,504 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [2] as [VARCHAR] - [4]
+2021-04-23 22:10:25,505 DEBUG org.hibernate.stat.internal.StatisticsImpl [http-nio-auto-1-exec-1] HHH000117: HQL: select generatedAlias0 from Listing as generatedAlias0 where ( generatedAlias0.dealer=:param0 ) and ( generatedAlias0.code=:param1 ), time: 1ms, rows: 0
+2021-04-23 22:10:25,507 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [1] as [INTEGER] - [1]
+2021-04-23 22:10:25,507 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [2] as [VARCHAR] - [5]
+2021-04-23 22:10:25,508 DEBUG org.hibernate.stat.internal.StatisticsImpl [http-nio-auto-1-exec-1] HHH000117: HQL: select generatedAlias0 from Listing as generatedAlias0 where ( generatedAlias0.dealer=:param0 ) and ( generatedAlias0.code=:param1 ), time: 2ms, rows: 0
+2021-04-23 22:10:25,575 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [1] as [VARCHAR] - [1]
+2021-04-23 22:10:25,576 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [2] as [VARCHAR] - [black]
+2021-04-23 22:10:25,576 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [3] as [INTEGER] - [1]
+2021-04-23 22:10:25,576 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [4] as [VARCHAR] - [mercedes]
+2021-04-23 22:10:25,577 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [5] as [VARCHAR] - [mercedes/a180]
+2021-04-23 22:10:25,578 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [6] as [FLOAT] - [123.0]
+2021-04-23 22:10:25,578 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [7] as [FLOAT] - [91.757996]
+2021-04-23 22:10:25,578 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [8] as [FLOAT] - [18250.0]
+2021-04-23 22:10:25,579 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [9] as [INTEGER] - [2014]
+2021-04-23 22:10:25,580 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [10] as [BIGINT] - [1]
+2021-04-23 22:10:25,584 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [1] as [VARCHAR] - [2]
+2021-04-23 22:10:25,584 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [2] as [VARCHAR] - [white]
+2021-04-23 22:10:25,584 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [3] as [INTEGER] - [1]
+2021-04-23 22:10:25,585 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [4] as [VARCHAR] - [audi]
+2021-04-23 22:10:25,585 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [5] as [VARCHAR] - [audi/a3]
+2021-04-23 22:10:25,585 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [6] as [FLOAT] - [111.0]
+2021-04-23 22:10:25,585 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [7] as [FLOAT] - [82.806]
+2021-04-23 22:10:25,586 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [8] as [FLOAT] - [17210.0]
+2021-04-23 22:10:25,586 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [9] as [INTEGER] - [2016]
+2021-04-23 22:10:25,587 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [10] as [BIGINT] - [2]
+2021-04-23 22:10:25,589 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [1] as [VARCHAR] - [3]
+2021-04-23 22:10:25,589 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [2] as [VARCHAR] - [green]
+2021-04-23 22:10:25,590 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [3] as [INTEGER] - [1]
+2021-04-23 22:10:25,591 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [4] as [VARCHAR] - [vw]
+2021-04-23 22:10:25,592 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [5] as [VARCHAR] - [vw/golf]
+2021-04-23 22:10:25,593 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [6] as [FLOAT] - [86.0]
+2021-04-23 22:10:25,593 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [7] as [FLOAT] - [64.156]
+2021-04-23 22:10:25,594 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [8] as [FLOAT] - [14980.0]
+2021-04-23 22:10:25,594 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [9] as [INTEGER] - [2018]
+2021-04-23 22:10:25,595 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [10] as [BIGINT] - [3]
+2021-04-23 22:10:25,596 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [1] as [VARCHAR] - [4]
+2021-04-23 22:10:25,597 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [2] as [VARCHAR] - [red]
+2021-04-23 22:10:25,597 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [3] as [INTEGER] - [1]
+2021-04-23 22:10:25,598 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [4] as [VARCHAR] - [skoda]
+2021-04-23 22:10:25,599 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [5] as [VARCHAR] - [skoda/octavia]
+2021-04-23 22:10:25,599 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [6] as [FLOAT] - [86.0]
+2021-04-23 22:10:25,599 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [7] as [FLOAT] - [64.156]
+2021-04-23 22:10:25,599 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [8] as [FLOAT] - [16990.0]
+2021-04-23 22:10:25,600 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [9] as [INTEGER] - [2018]
+2021-04-23 22:10:25,600 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [10] as [BIGINT] - [4]
+2021-04-23 22:10:25,601 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [1] as [VARCHAR] - [5]
+2021-04-23 22:10:25,601 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [2] as [VARCHAR] - [blue]
+2021-04-23 22:10:25,602 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [3] as [INTEGER] - [1]
+2021-04-23 22:10:25,602 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [4] as [VARCHAR] - [skoda]
+2021-04-23 22:10:25,602 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [5] as [VARCHAR] - [skoda/octavia]
+2021-04-23 22:10:25,603 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [6] as [FLOAT] - [86.0]
+2021-04-23 22:10:25,603 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [7] as [FLOAT] - [64.156]
+2021-04-23 22:10:25,603 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [8] as [FLOAT] - [17990.0]
+2021-04-23 22:10:25,604 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [9] as [INTEGER] - [2016]
+2021-04-23 22:10:25,604 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-1] binding parameter [10] as [BIGINT] - [5]
+2021-04-23 22:10:25,651 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [http-nio-auto-1-exec-1] Session Metrics {
+    155000 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    6165700 nanoseconds spent preparing 15 JDBC statements;
+    4961300 nanoseconds spent executing 15 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    45972100 nanoseconds spent executing 1 flushes (flushing a total of 5 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-04-23 22:10:25,811 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-3] binding parameter [1] as [VARCHAR] - [black]
+2021-04-23 22:10:25,820 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-3] extracted value ([id1_0_] : [BIGINT]) - [1]
+2021-04-23 22:10:25,829 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-3] extracted value ([code2_0_] : [VARCHAR]) - [1]
+2021-04-23 22:10:25,829 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-3] extracted value ([color3_0_] : [VARCHAR]) - [black]
+2021-04-23 22:10:25,830 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-3] extracted value ([dealer4_0_] : [INTEGER]) - [1]
+2021-04-23 22:10:25,831 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-3] extracted value ([make5_0_] : [VARCHAR]) - [mercedes]
+2021-04-23 22:10:25,831 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-3] extracted value ([model6_0_] : [VARCHAR]) - [mercedes/a180]
+2021-04-23 22:10:25,833 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-3] extracted value ([power_in7_0_] : [FLOAT]) - [123.0]
+2021-04-23 22:10:25,833 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-3] extracted value ([power_in8_0_] : [FLOAT]) - [91.757996]
+2021-04-23 22:10:25,834 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-3] extracted value ([price9_0_] : [FLOAT]) - [18250.0]
+2021-04-23 22:10:25,834 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-3] extracted value ([year10_0_] : [INTEGER]) - [2014]
+2021-04-23 22:10:25,839 DEBUG org.hibernate.stat.internal.StatisticsImpl [http-nio-auto-1-exec-3] HHH000117: HQL: select generatedAlias0 from Listing as generatedAlias0 where generatedAlias0.color=:param0, time: 31ms, rows: 1
+2021-04-23 22:10:25,850 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [http-nio-auto-1-exec-3] Session Metrics {
+    67100 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    1630100 nanoseconds spent preparing 1 JDBC statements;
+    1060100 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    123100 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-04-23 22:10:25,865 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-2] binding parameter [1] as [VARCHAR] - [skoda]
+2021-04-23 22:10:25,867 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-2] extracted value ([id1_0_] : [BIGINT]) - [4]
+2021-04-23 22:10:25,867 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-2] extracted value ([code2_0_] : [VARCHAR]) - [4]
+2021-04-23 22:10:25,868 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-2] extracted value ([color3_0_] : [VARCHAR]) - [red]
+2021-04-23 22:10:25,868 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-2] extracted value ([dealer4_0_] : [INTEGER]) - [1]
+2021-04-23 22:10:25,868 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-2] extracted value ([make5_0_] : [VARCHAR]) - [skoda]
+2021-04-23 22:10:25,869 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-2] extracted value ([model6_0_] : [VARCHAR]) - [skoda/octavia]
+2021-04-23 22:10:25,869 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-2] extracted value ([power_in7_0_] : [FLOAT]) - [86.0]
+2021-04-23 22:10:25,869 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-2] extracted value ([power_in8_0_] : [FLOAT]) - [64.156]
+2021-04-23 22:10:25,870 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-2] extracted value ([price9_0_] : [FLOAT]) - [16990.0]
+2021-04-23 22:10:25,870 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-2] extracted value ([year10_0_] : [INTEGER]) - [2018]
+2021-04-23 22:10:25,871 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-2] extracted value ([id1_0_] : [BIGINT]) - [5]
+2021-04-23 22:10:25,871 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-2] extracted value ([code2_0_] : [VARCHAR]) - [5]
+2021-04-23 22:10:25,871 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-2] extracted value ([color3_0_] : [VARCHAR]) - [blue]
+2021-04-23 22:10:25,871 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-2] extracted value ([dealer4_0_] : [INTEGER]) - [1]
+2021-04-23 22:10:25,872 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-2] extracted value ([make5_0_] : [VARCHAR]) - [skoda]
+2021-04-23 22:10:25,872 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-2] extracted value ([model6_0_] : [VARCHAR]) - [skoda/octavia]
+2021-04-23 22:10:25,872 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-2] extracted value ([power_in7_0_] : [FLOAT]) - [86.0]
+2021-04-23 22:10:25,873 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-2] extracted value ([power_in8_0_] : [FLOAT]) - [64.156]
+2021-04-23 22:10:25,873 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-2] extracted value ([price9_0_] : [FLOAT]) - [17990.0]
+2021-04-23 22:10:25,874 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-2] extracted value ([year10_0_] : [INTEGER]) - [2016]
+2021-04-23 22:10:25,874 DEBUG org.hibernate.stat.internal.StatisticsImpl [http-nio-auto-1-exec-2] HHH000117: HQL: select generatedAlias0 from Listing as generatedAlias0 where generatedAlias0.make=:param0, time: 11ms, rows: 2
+2021-04-23 22:10:25,878 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [http-nio-auto-1-exec-2] Session Metrics {
+    68600 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    857900 nanoseconds spent preparing 1 JDBC statements;
+    483700 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    4700 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-04-23 22:10:25,919 INFO car.hey.listings.controller.ListingController [http-nio-auto-1-exec-5] Upserting 2 listings by JSON endpoint from dealer 1
+2021-04-23 22:10:25,921 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-5] binding parameter [1] as [INTEGER] - [1]
+2021-04-23 22:10:25,922 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-5] binding parameter [2] as [VARCHAR] - [5]
+2021-04-23 22:10:25,923 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-5] extracted value ([id1_0_] : [BIGINT]) - [5]
+2021-04-23 22:10:25,925 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-5] extracted value ([code2_0_] : [VARCHAR]) - [5]
+2021-04-23 22:10:25,925 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-5] extracted value ([color3_0_] : [VARCHAR]) - [blue]
+2021-04-23 22:10:25,925 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-5] extracted value ([dealer4_0_] : [INTEGER]) - [1]
+2021-04-23 22:10:25,925 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-5] extracted value ([make5_0_] : [VARCHAR]) - [skoda]
+2021-04-23 22:10:25,926 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-5] extracted value ([model6_0_] : [VARCHAR]) - [skoda/octavia]
+2021-04-23 22:10:25,926 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-5] extracted value ([power_in7_0_] : [FLOAT]) - [86.0]
+2021-04-23 22:10:25,927 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-5] extracted value ([power_in8_0_] : [FLOAT]) - [64.156]
+2021-04-23 22:10:25,928 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-5] extracted value ([price9_0_] : [FLOAT]) - [17990.0]
+2021-04-23 22:10:25,928 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-5] extracted value ([year10_0_] : [INTEGER]) - [2016]
+2021-04-23 22:10:25,929 DEBUG org.hibernate.stat.internal.StatisticsImpl [http-nio-auto-1-exec-5] HHH000117: HQL: select generatedAlias0 from Listing as generatedAlias0 where ( generatedAlias0.dealer=:param0 ) and ( generatedAlias0.code=:param1 ), time: 8ms, rows: 1
+2021-04-23 22:10:25,931 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-5] binding parameter [1] as [INTEGER] - [1]
+2021-04-23 22:10:25,932 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-5] binding parameter [2] as [VARCHAR] - [6]
+2021-04-23 22:10:25,932 DEBUG org.hibernate.stat.internal.StatisticsImpl [http-nio-auto-1-exec-5] HHH000117: HQL: select generatedAlias0 from Listing as generatedAlias0 where ( generatedAlias0.dealer=:param0 ) and ( generatedAlias0.code=:param1 ), time: 2ms, rows: 0
+2021-04-23 22:10:25,949 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-5] binding parameter [1] as [VARCHAR] - [6]
+2021-04-23 22:10:25,949 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-5] binding parameter [2] as [VARCHAR] - [black]
+2021-04-23 22:10:25,951 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-5] binding parameter [3] as [INTEGER] - [1]
+2021-04-23 22:10:25,956 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-5] binding parameter [4] as [VARCHAR] - [audi]
+2021-04-23 22:10:25,956 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-5] binding parameter [5] as [VARCHAR] - [quattro]
+2021-04-23 22:10:25,957 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-5] binding parameter [6] as [FLOAT] - [224.0]
+2021-04-23 22:10:25,958 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-5] binding parameter [7] as [FLOAT] - [null]
+2021-04-23 22:10:25,960 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-5] binding parameter [8] as [FLOAT] - [32000.0]
+2021-04-23 22:10:25,961 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-5] binding parameter [9] as [INTEGER] - [2012]
+2021-04-23 22:10:25,961 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-5] binding parameter [10] as [BIGINT] - [6]
+2021-04-23 22:10:25,965 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-5] binding parameter [1] as [VARCHAR] - [5]
+2021-04-23 22:10:25,965 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-5] binding parameter [2] as [VARCHAR] - [brown]
+2021-04-23 22:10:25,965 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-5] binding parameter [3] as [INTEGER] - [1]
+2021-04-23 22:10:25,965 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-5] binding parameter [4] as [VARCHAR] - [audi]
+2021-04-23 22:10:25,965 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-5] binding parameter [5] as [VARCHAR] - [tt]
+2021-04-23 22:10:25,966 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-5] binding parameter [6] as [FLOAT] - [124.0]
+2021-04-23 22:10:25,966 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-5] binding parameter [7] as [FLOAT] - [null]
+2021-04-23 22:10:25,966 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-5] binding parameter [8] as [FLOAT] - [12000.0]
+2021-04-23 22:10:25,967 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-5] binding parameter [9] as [INTEGER] - [2008]
+2021-04-23 22:10:25,967 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-5] binding parameter [10] as [BIGINT] - [5]
+2021-04-23 22:10:25,977 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [http-nio-auto-1-exec-5] Session Metrics {
+    72500 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    1439400 nanoseconds spent preparing 5 JDBC statements;
+    4101700 nanoseconds spent executing 5 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    24739600 nanoseconds spent executing 1 flushes (flushing a total of 2 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-04-23 22:10:25,997 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-6] binding parameter [1] as [VARCHAR] - [audi]
+2021-04-23 22:10:25,998 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([id1_0_] : [BIGINT]) - [2]
+2021-04-23 22:10:25,998 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([code2_0_] : [VARCHAR]) - [2]
+2021-04-23 22:10:25,998 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([color3_0_] : [VARCHAR]) - [white]
+2021-04-23 22:10:25,999 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([dealer4_0_] : [INTEGER]) - [1]
+2021-04-23 22:10:25,999 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([make5_0_] : [VARCHAR]) - [audi]
+2021-04-23 22:10:25,999 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([model6_0_] : [VARCHAR]) - [audi/a3]
+2021-04-23 22:10:25,999 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([power_in7_0_] : [FLOAT]) - [111.0]
+2021-04-23 22:10:25,999 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([power_in8_0_] : [FLOAT]) - [82.806]
+2021-04-23 22:10:26,000 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([price9_0_] : [FLOAT]) - [17210.0]
+2021-04-23 22:10:26,000 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([year10_0_] : [INTEGER]) - [2016]
+2021-04-23 22:10:26,000 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([id1_0_] : [BIGINT]) - [5]
+2021-04-23 22:10:26,000 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([code2_0_] : [VARCHAR]) - [5]
+2021-04-23 22:10:26,001 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([color3_0_] : [VARCHAR]) - [brown]
+2021-04-23 22:10:26,001 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([dealer4_0_] : [INTEGER]) - [1]
+2021-04-23 22:10:26,001 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([make5_0_] : [VARCHAR]) - [audi]
+2021-04-23 22:10:26,001 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([model6_0_] : [VARCHAR]) - [tt]
+2021-04-23 22:10:26,001 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([power_in7_0_] : [FLOAT]) - [124.0]
+2021-04-23 22:10:26,002 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([power_in8_0_] : [FLOAT]) - [null]
+2021-04-23 22:10:26,002 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([price9_0_] : [FLOAT]) - [12000.0]
+2021-04-23 22:10:26,002 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([year10_0_] : [INTEGER]) - [2008]
+2021-04-23 22:10:26,002 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([id1_0_] : [BIGINT]) - [6]
+2021-04-23 22:10:26,003 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([code2_0_] : [VARCHAR]) - [6]
+2021-04-23 22:10:26,003 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([color3_0_] : [VARCHAR]) - [black]
+2021-04-23 22:10:26,003 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([dealer4_0_] : [INTEGER]) - [1]
+2021-04-23 22:10:26,004 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([make5_0_] : [VARCHAR]) - [audi]
+2021-04-23 22:10:26,004 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([model6_0_] : [VARCHAR]) - [quattro]
+2021-04-23 22:10:26,004 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([power_in7_0_] : [FLOAT]) - [224.0]
+2021-04-23 22:10:26,004 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([power_in8_0_] : [FLOAT]) - [null]
+2021-04-23 22:10:26,005 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([price9_0_] : [FLOAT]) - [32000.0]
+2021-04-23 22:10:26,005 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-6] extracted value ([year10_0_] : [INTEGER]) - [2012]
+2021-04-23 22:10:26,006 DEBUG org.hibernate.stat.internal.StatisticsImpl [http-nio-auto-1-exec-6] HHH000117: HQL: select generatedAlias0 from Listing as generatedAlias0 where generatedAlias0.make=:param0, time: 9ms, rows: 3
+2021-04-23 22:10:26,011 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [http-nio-auto-1-exec-6] Session Metrics {
+    62100 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    56000 nanoseconds spent preparing 1 JDBC statements;
+    347100 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    5000 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-04-23 22:10:26,062 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [1] as [INTEGER] - [1]
+2021-04-23 22:10:26,062 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [2] as [VARCHAR] - [1]
+2021-04-23 22:10:26,063 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([id1_0_] : [BIGINT]) - [1]
+2021-04-23 22:10:26,064 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([code2_0_] : [VARCHAR]) - [1]
+2021-04-23 22:10:26,065 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([color3_0_] : [VARCHAR]) - [black]
+2021-04-23 22:10:26,065 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([dealer4_0_] : [INTEGER]) - [1]
+2021-04-23 22:10:26,065 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([make5_0_] : [VARCHAR]) - [mercedes]
+2021-04-23 22:10:26,066 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([model6_0_] : [VARCHAR]) - [mercedes/a180]
+2021-04-23 22:10:26,066 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([power_in7_0_] : [FLOAT]) - [123.0]
+2021-04-23 22:10:26,066 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([power_in8_0_] : [FLOAT]) - [91.757996]
+2021-04-23 22:10:26,067 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([price9_0_] : [FLOAT]) - [18250.0]
+2021-04-23 22:10:26,067 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([year10_0_] : [INTEGER]) - [2014]
+2021-04-23 22:10:26,067 DEBUG org.hibernate.stat.internal.StatisticsImpl [http-nio-auto-1-exec-4] HHH000117: HQL: select generatedAlias0 from Listing as generatedAlias0 where ( generatedAlias0.dealer=:param0 ) and ( generatedAlias0.code=:param1 ), time: 6ms, rows: 1
+2021-04-23 22:10:26,069 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [1] as [INTEGER] - [1]
+2021-04-23 22:10:26,070 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [2] as [VARCHAR] - [2]
+2021-04-23 22:10:26,071 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([id1_0_] : [BIGINT]) - [2]
+2021-04-23 22:10:26,071 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([code2_0_] : [VARCHAR]) - [2]
+2021-04-23 22:10:26,071 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([color3_0_] : [VARCHAR]) - [white]
+2021-04-23 22:10:26,072 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([dealer4_0_] : [INTEGER]) - [1]
+2021-04-23 22:10:26,072 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([make5_0_] : [VARCHAR]) - [audi]
+2021-04-23 22:10:26,072 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([model6_0_] : [VARCHAR]) - [audi/a3]
+2021-04-23 22:10:26,073 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([power_in7_0_] : [FLOAT]) - [111.0]
+2021-04-23 22:10:26,073 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([power_in8_0_] : [FLOAT]) - [82.806]
+2021-04-23 22:10:26,073 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([price9_0_] : [FLOAT]) - [17210.0]
+2021-04-23 22:10:26,073 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([year10_0_] : [INTEGER]) - [2016]
+2021-04-23 22:10:26,075 DEBUG org.hibernate.stat.internal.StatisticsImpl [http-nio-auto-1-exec-4] HHH000117: HQL: select generatedAlias0 from Listing as generatedAlias0 where ( generatedAlias0.dealer=:param0 ) and ( generatedAlias0.code=:param1 ), time: 6ms, rows: 1
+2021-04-23 22:10:26,078 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [1] as [INTEGER] - [1]
+2021-04-23 22:10:26,079 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [2] as [VARCHAR] - [3]
+2021-04-23 22:10:26,081 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([id1_0_] : [BIGINT]) - [3]
+2021-04-23 22:10:26,082 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([code2_0_] : [VARCHAR]) - [3]
+2021-04-23 22:10:26,082 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([color3_0_] : [VARCHAR]) - [green]
+2021-04-23 22:10:26,083 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([dealer4_0_] : [INTEGER]) - [1]
+2021-04-23 22:10:26,084 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([make5_0_] : [VARCHAR]) - [vw]
+2021-04-23 22:10:26,084 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([model6_0_] : [VARCHAR]) - [vw/golf]
+2021-04-23 22:10:26,085 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([power_in7_0_] : [FLOAT]) - [86.0]
+2021-04-23 22:10:26,085 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([power_in8_0_] : [FLOAT]) - [64.156]
+2021-04-23 22:10:26,085 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([price9_0_] : [FLOAT]) - [14980.0]
+2021-04-23 22:10:26,086 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([year10_0_] : [INTEGER]) - [2018]
+2021-04-23 22:10:26,086 DEBUG org.hibernate.stat.internal.StatisticsImpl [http-nio-auto-1-exec-4] HHH000117: HQL: select generatedAlias0 from Listing as generatedAlias0 where ( generatedAlias0.dealer=:param0 ) and ( generatedAlias0.code=:param1 ), time: 8ms, rows: 1
+2021-04-23 22:10:26,088 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [1] as [INTEGER] - [1]
+2021-04-23 22:10:26,088 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [2] as [VARCHAR] - [4]
+2021-04-23 22:10:26,089 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([id1_0_] : [BIGINT]) - [4]
+2021-04-23 22:10:26,089 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([code2_0_] : [VARCHAR]) - [4]
+2021-04-23 22:10:26,089 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([color3_0_] : [VARCHAR]) - [red]
+2021-04-23 22:10:26,089 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([dealer4_0_] : [INTEGER]) - [1]
+2021-04-23 22:10:26,089 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([make5_0_] : [VARCHAR]) - [skoda]
+2021-04-23 22:10:26,090 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([model6_0_] : [VARCHAR]) - [skoda/octavia]
+2021-04-23 22:10:26,090 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([power_in7_0_] : [FLOAT]) - [86.0]
+2021-04-23 22:10:26,091 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([power_in8_0_] : [FLOAT]) - [64.156]
+2021-04-23 22:10:26,091 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([price9_0_] : [FLOAT]) - [16990.0]
+2021-04-23 22:10:26,091 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([year10_0_] : [INTEGER]) - [2018]
+2021-04-23 22:10:26,092 DEBUG org.hibernate.stat.internal.StatisticsImpl [http-nio-auto-1-exec-4] HHH000117: HQL: select generatedAlias0 from Listing as generatedAlias0 where ( generatedAlias0.dealer=:param0 ) and ( generatedAlias0.code=:param1 ), time: 5ms, rows: 1
+2021-04-23 22:10:26,094 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [1] as [INTEGER] - [1]
+2021-04-23 22:10:26,095 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [2] as [VARCHAR] - [5]
+2021-04-23 22:10:26,096 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([id1_0_] : [BIGINT]) - [5]
+2021-04-23 22:10:26,098 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([code2_0_] : [VARCHAR]) - [5]
+2021-04-23 22:10:26,098 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([color3_0_] : [VARCHAR]) - [brown]
+2021-04-23 22:10:26,099 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([dealer4_0_] : [INTEGER]) - [1]
+2021-04-23 22:10:26,099 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([make5_0_] : [VARCHAR]) - [audi]
+2021-04-23 22:10:26,099 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([model6_0_] : [VARCHAR]) - [tt]
+2021-04-23 22:10:26,099 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([power_in7_0_] : [FLOAT]) - [124.0]
+2021-04-23 22:10:26,099 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([power_in8_0_] : [FLOAT]) - [null]
+2021-04-23 22:10:26,099 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([price9_0_] : [FLOAT]) - [12000.0]
+2021-04-23 22:10:26,099 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([year10_0_] : [INTEGER]) - [2008]
+2021-04-23 22:10:26,100 DEBUG org.hibernate.stat.internal.StatisticsImpl [http-nio-auto-1-exec-4] HHH000117: HQL: select generatedAlias0 from Listing as generatedAlias0 where ( generatedAlias0.dealer=:param0 ) and ( generatedAlias0.code=:param1 ), time: 6ms, rows: 1
+2021-04-23 22:10:26,101 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [1] as [INTEGER] - [1]
+2021-04-23 22:10:26,102 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [2] as [VARCHAR] - [6]
+2021-04-23 22:10:26,103 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([id1_0_] : [BIGINT]) - [6]
+2021-04-23 22:10:26,104 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([code2_0_] : [VARCHAR]) - [6]
+2021-04-23 22:10:26,104 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([color3_0_] : [VARCHAR]) - [black]
+2021-04-23 22:10:26,105 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([dealer4_0_] : [INTEGER]) - [1]
+2021-04-23 22:10:26,105 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([make5_0_] : [VARCHAR]) - [audi]
+2021-04-23 22:10:26,105 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([model6_0_] : [VARCHAR]) - [quattro]
+2021-04-23 22:10:26,106 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([power_in7_0_] : [FLOAT]) - [224.0]
+2021-04-23 22:10:26,106 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([power_in8_0_] : [FLOAT]) - [null]
+2021-04-23 22:10:26,106 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([price9_0_] : [FLOAT]) - [32000.0]
+2021-04-23 22:10:26,106 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-4] extracted value ([year10_0_] : [INTEGER]) - [2012]
+2021-04-23 22:10:26,109 DEBUG org.hibernate.stat.internal.StatisticsImpl [http-nio-auto-1-exec-4] HHH000117: HQL: select generatedAlias0 from Listing as generatedAlias0 where ( generatedAlias0.dealer=:param0 ) and ( generatedAlias0.code=:param1 ), time: 7ms, rows: 1
+2021-04-23 22:10:26,114 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [1] as [VARCHAR] - [1]
+2021-04-23 22:10:26,115 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [2] as [VARCHAR] - [black]
+2021-04-23 22:10:26,115 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [3] as [INTEGER] - [1]
+2021-04-23 22:10:26,115 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [4] as [VARCHAR] - [mercedes]
+2021-04-23 22:10:26,116 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [5] as [VARCHAR] - [mercedes/a180]
+2021-04-23 22:10:26,116 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [6] as [FLOAT] - [123.0]
+2021-04-23 22:10:26,116 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [7] as [FLOAT] - [91.757996]
+2021-04-23 22:10:26,117 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [8] as [FLOAT] - [17250.0]
+2021-04-23 22:10:26,117 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [9] as [INTEGER] - [2014]
+2021-04-23 22:10:26,117 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [10] as [BIGINT] - [1]
+2021-04-23 22:10:26,119 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [1] as [VARCHAR] - [2]
+2021-04-23 22:10:26,119 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [2] as [VARCHAR] - [white]
+2021-04-23 22:10:26,119 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [3] as [INTEGER] - [1]
+2021-04-23 22:10:26,120 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [4] as [VARCHAR] - [audi]
+2021-04-23 22:10:26,120 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [5] as [VARCHAR] - [audi/a3]
+2021-04-23 22:10:26,120 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [6] as [FLOAT] - [111.0]
+2021-04-23 22:10:26,121 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [7] as [FLOAT] - [82.806]
+2021-04-23 22:10:26,121 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [8] as [FLOAT] - [16210.0]
+2021-04-23 22:10:26,121 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [9] as [INTEGER] - [2016]
+2021-04-23 22:10:26,121 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [10] as [BIGINT] - [2]
+2021-04-23 22:10:26,125 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [1] as [VARCHAR] - [5]
+2021-04-23 22:10:26,125 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [2] as [VARCHAR] - [blue]
+2021-04-23 22:10:26,125 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [3] as [INTEGER] - [1]
+2021-04-23 22:10:26,126 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [4] as [VARCHAR] - [skoda]
+2021-04-23 22:10:26,126 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [5] as [VARCHAR] - [skoda/octavia]
+2021-04-23 22:10:26,126 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [6] as [FLOAT] - [86.0]
+2021-04-23 22:10:26,126 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [7] as [FLOAT] - [64.156]
+2021-04-23 22:10:26,127 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [8] as [FLOAT] - [17990.0]
+2021-04-23 22:10:26,127 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [9] as [INTEGER] - [2016]
+2021-04-23 22:10:26,127 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [10] as [BIGINT] - [5]
+2021-04-23 22:10:26,129 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [1] as [VARCHAR] - [6]
+2021-04-23 22:10:26,129 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [2] as [VARCHAR] - [red]
+2021-04-23 22:10:26,129 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [3] as [INTEGER] - [1]
+2021-04-23 22:10:26,130 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [4] as [VARCHAR] - [skoda]
+2021-04-23 22:10:26,130 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [5] as [VARCHAR] - [skoda/octavia]
+2021-04-23 22:10:26,130 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [6] as [FLOAT] - [86.0]
+2021-04-23 22:10:26,130 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [7] as [FLOAT] - [64.156]
+2021-04-23 22:10:26,130 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [8] as [FLOAT] - [16000.0]
+2021-04-23 22:10:26,130 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [9] as [INTEGER] - [2012]
+2021-04-23 22:10:26,131 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-4] binding parameter [10] as [BIGINT] - [6]
+2021-04-23 22:10:26,142 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [http-nio-auto-1-exec-4] Session Metrics {
+    72800 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    899900 nanoseconds spent preparing 10 JDBC statements;
+    5900600 nanoseconds spent executing 10 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    18779000 nanoseconds spent executing 1 flushes (flushing a total of 6 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-04-23 22:10:26,163 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-auto-1-exec-7] binding parameter [1] as [VARCHAR] - [white]
+2021-04-23 22:10:26,165 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-7] extracted value ([id1_0_] : [BIGINT]) - [2]
+2021-04-23 22:10:26,166 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-7] extracted value ([code2_0_] : [VARCHAR]) - [2]
+2021-04-23 22:10:26,166 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-7] extracted value ([color3_0_] : [VARCHAR]) - [white]
+2021-04-23 22:10:26,167 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-7] extracted value ([dealer4_0_] : [INTEGER]) - [1]
+2021-04-23 22:10:26,167 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-7] extracted value ([make5_0_] : [VARCHAR]) - [audi]
+2021-04-23 22:10:26,167 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-7] extracted value ([model6_0_] : [VARCHAR]) - [audi/a3]
+2021-04-23 22:10:26,167 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-7] extracted value ([power_in7_0_] : [FLOAT]) - [111.0]
+2021-04-23 22:10:26,167 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-7] extracted value ([power_in8_0_] : [FLOAT]) - [82.806]
+2021-04-23 22:10:26,167 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-7] extracted value ([price9_0_] : [FLOAT]) - [16210.0]
+2021-04-23 22:10:26,168 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-auto-1-exec-7] extracted value ([year10_0_] : [INTEGER]) - [2016]
+2021-04-23 22:10:26,168 DEBUG org.hibernate.stat.internal.StatisticsImpl [http-nio-auto-1-exec-7] HHH000117: HQL: select generatedAlias0 from Listing as generatedAlias0 where generatedAlias0.color=:param0, time: 5ms, rows: 1
+2021-04-23 22:10:26,173 INFO org.hibernate.engine.internal.StatisticalLoggingSessionEventListener [http-nio-auto-1-exec-7] Session Metrics {
+    67100 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    258000 nanoseconds spent preparing 1 JDBC statements;
+    1344200 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    5800 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-04-23 22:10:26,247 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringContextShutdownHook] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-04-23 22:10:26,256 TRACE org.hibernate.type.spi.TypeConfiguration$Scope [SpringContextShutdownHook] Handling #sessionFactoryClosed from [org.hibernate.internal.SessionFactoryImpl@1734b1a] for TypeConfiguration
+2021-04-23 22:10:26,257 DEBUG org.hibernate.type.spi.TypeConfiguration$Scope [SpringContextShutdownHook] Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@7fb5f981] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@1734b1a]
+2021-04-23 22:10:26,261 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-04-23 22:10:26,266 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.

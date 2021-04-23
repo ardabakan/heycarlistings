@@ -24,6 +24,7 @@ import java.util.List;
 class ListingsApplicationTests {
 
     public static final String LISTINGS_CSV_FILE = "listings.csv";
+    public static final String LISTINGS_UPDATE_CSV_FILE = "listings_update.csv";
 
     @Autowired
     TestRestTemplate template;
@@ -53,6 +54,9 @@ class ListingsApplicationTests {
                         , responseType);
 
         Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+        // the uploaded csv file has 5 listings, and should be returned by
+        // endpoint
+        Assertions.assertEquals(5, response.getBody().size());
     }
 
     @Test
@@ -163,6 +167,63 @@ class ListingsApplicationTests {
         Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
         // should find one
         Assertions.assertEquals(3, list.size());
+
+    }
+
+    @Test
+    @Order(5)
+    public void updateFileShouldBeSuccessfullyUploaded() {
+        LinkedMultiValueMap multipart = new LinkedMultiValueMap<>();
+        multipart.add("file", new FileSystemResource(Path.of("src", "test",
+                "resources",
+                LISTINGS_UPDATE_CSV_FILE)));
+
+        HttpHeaders headers = new HttpHeaders();
+        headers.setContentType(MediaType.MULTIPART_FORM_DATA);
+
+        ParameterizedTypeReference<List<Listing>> responseType =
+                new ParameterizedTypeReference<List<Listing>>() {
+                };
+
+        ResponseEntity<List<Listing>> response =
+                template.exchange("/upload-csv-file/1",
+                        HttpMethod.POST, new HttpEntity<>(multipart, headers)
+                        , responseType);
+
+        Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+        // the updated csv file has 6 listings, and should be returned by
+        // endpoint
+        Assertions.assertEquals(6, response.getBody().size());
+
+    }
+
+    @Test
+    @Order(6)
+    public void shouldFindTheUpdatedListingsBySearching() {
+
+        // look for the white car that has been uploaded in the update csv file
+        // 2,audi/a3,111,2016,white,16210
+
+        String url = "/search?color=white";
+
+        HttpHeaders headers = new HttpHeaders();
+
+        HttpEntity<?> entity = new HttpEntity<>(headers);
+
+        ParameterizedTypeReference<List<Listing>> responseType =
+                new ParameterizedTypeReference<List<Listing>>() {
+                };
+
+        ResponseEntity<List<Listing>> response =
+                template.exchange(url, HttpMethod.GET, entity, responseType);
+
+        List<Listing> list = response.getBody();
+
+        Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+        // should find one
+        Assertions.assertEquals(1, list.size());
+        Listing whiteAudi = response.getBody().get(0);
+        Assertions.assertEquals(16210, whiteAudi.getPrice());
 
     }
 }
