@@ -8,16 +8,21 @@ Visit http://localhost:8080/swagger-ui.html/ for API details
 and to try the endpoints out by sample data
 
 # Building and Running
-## With Maven
+### With Maven
 
 Use the mvnw included in the root folder or your local mvn tool  [mvn](https://maven.apache.org/) to clean and install the application.
 
 ```bash
 $ ./mvnw clean install
+```
+# Running
+
+### With Maven
+
+```bash
 $ ./mvnw spring-boot:run
 ```
-
-## With Docker
+### With Docker
 
 ```bash
 $ docker build --tag=heycarlistings:latest .
@@ -33,7 +38,7 @@ automatically run during installation commands
 
 ###### Problems you discovered
 
-- The neeed to unify listings from CSV and JSON (for instance HP and KW conversions)
+- The need to unify listings from CSV and JSON (for instance HP and KW conversions)
 - The need to apply JPA ExampleMatcher for searches
 
 ###### Executed tests and results
