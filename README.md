@@ -15,6 +15,12 @@ Use the mvnw included in the root folder or your local mvn tool  [mvn](https://m
 ```bash
 $ ./mvnw clean install
 ```
+
+or
+
+```bash
+$ mvn clean install
+```
 # Running
 
 ### With Maven
