@@ -7,6 +7,9 @@ This is a challenge implementation for Heycar's backend challenge
 Visit http://localhost:8080/swagger-ui.html/ for API details
 and to try the endpoints out by sample data
 
+![resim](https://user-images.githubusercontent.com/23276113/116003028-a7c55080-a5fc-11eb-8049-76f42bd967c0.png)
+
+
 # Building
 ### With Maven
 
